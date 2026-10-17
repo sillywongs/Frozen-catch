@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Frozen Catch</title>
+<link rel="stylesheet" href="./src/ui/styles.css">
+</head>
+<body>
+<div id="app">
+  <header class="topbar">
+    <h1>Frozen Catch</h1>
+    <div class="top-actions">
+      <span id="coin-count" class="coins" aria-label="Coins">0</span>
+      <button id="shop-btn" class="icon-btn" aria-label="Open booster shop">Shop</button>
+      <button id="mute-btn" class="icon-btn" aria-label="Toggle sound">Sound</button>
+    </div>
+  </header>
+
+  <main id="menu" class="screen">
+    <p class="tagline">Send penguin squads into the ice, free every frozen fish, and reveal the picture hidden in the ice.</p>
+    <div id="level-grid" class="level-grid" role="list" aria-label="Story levels"></div>
+    <button id="endless-btn" class="primary big">Endless Expedition</button>
+  </main>
+
+  <main id="game" class="screen hidden">
+    <div class="game-head">
+      <button id="back-btn" class="icon-btn" aria-label="Back to level select">Back</button>
+      <h2 id="level-title">Level</h2>
+      <button id="restart-btn" class="icon-btn" aria-label="Restart level">Restart</button>
+    </div>
+    <canvas id="board" aria-label="Ice board with frozen fish, penguin squads and igloo"></canvas>
+    <div id="squad-row" class="squad-row" role="group" aria-label="Penguin squads"></div>
+    <div class="booster-row" role="group" aria-label="Boosters">
+      <button id="booster-slot" class="booster">Extra Slot <span class="count" id="count-slot">0</span></button>
+      <button id="booster-shuffle" class="booster">Shuffle <span class="count" id="count-shuffle">0</span></button>
+      <button id="booster-undo" class="booster">Undo <span class="count" id="count-undo">0</span></button>
+    </div>
+  </main>
+
+  <div id="overlay" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="overlay-title">
+    <div class="overlay-card">
+      <h3 id="overlay-title"></h3>
+      <p id="overlay-text"></p>
+      <div id="overlay-stars" class="stars" aria-label="Stars earned"></div>
+      <div id="overlay-actions" class="overlay-actions"></div>
+    </div>
+  </div>
+
+  <div id="shop" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="shop-title">
+    <div class="overlay-card">
+      <h3 id="shop-title">Booster Shop</h3>
+      <p id="shop-coins"></p>
+      <div id="shop-items"></div>
+      <button id="shop-close" class="primary">Close</button>
+    </div>
+  </div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
