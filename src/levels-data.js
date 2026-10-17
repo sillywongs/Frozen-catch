@@ -1,0 +1,8468 @@
+export const LEVELS = [
+  {
+    "id": 1,
+    "name": "Aurora 1",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 0,
+        "quota": 14
+      },
+      {
+        "color": 1,
+        "quota": 14
+      },
+      {
+        "color": 2,
+        "quota": 6
+      },
+      {
+        "color": 3,
+        "quota": 14
+      }
+    ],
+    "grid": [
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        }
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        }
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        }
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        }
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        }
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        }
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        }
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 4
+  },
+  {
+    "id": 2,
+    "name": "Whale 2",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 0,
+        "quota": 1
+      },
+      {
+        "color": 1,
+        "quota": 23
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 0
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 3,
+    "name": "Lighthouse 3",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 5
+      },
+      {
+        "color": 2,
+        "quota": 7
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 4,
+    "name": "Bear 4",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 2,
+        "quota": 28
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null
+      ],
+      [
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        }
+      ],
+      [
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        }
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 5,
+    "name": "Snowflake 5",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 3,
+        "quota": 24
+      }
+    ],
+    "grid": [
+      [
+        {
+          "c": 3
+        },
+        null,
+        null,
+        {
+          "c": 3
+        },
+        null,
+        null,
+        {
+          "c": 3
+        }
+      ],
+      [
+        null,
+        {
+          "c": 3
+        },
+        null,
+        {
+          "c": 3
+        },
+        null,
+        {
+          "c": 3
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null,
+        null
+      ],
+      [
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        }
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 3
+        },
+        null,
+        {
+          "c": 3
+        },
+        null,
+        {
+          "c": 3
+        },
+        null
+      ],
+      [
+        {
+          "c": 3
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "c": 3
+        }
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 6,
+    "name": "Fish 6",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 22
+      },
+      {
+        "color": 2,
+        "quota": 1
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 2
+        }
+      ],
+      [
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 7,
+    "name": "Wave 7",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 0,
+        "quota": 21
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        }
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 8,
+    "name": "Star 8",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 3,
+        "quota": 14
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 3
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 3
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3,
+          "m": true
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 9,
+    "name": "Heart 9",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 27
+      }
+    ],
+    "grid": [
+      [
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 10,
+    "name": "Pine 10",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 0,
+        "quota": 16
+      },
+      {
+        "color": 2,
+        "quota": 2
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 0
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 0,
+          "m": true
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        null
+      ],
+      [
+        {
+          "c": 0,
+          "m": true
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        }
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 11,
+    "name": "Moon 11",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 2,
+        "quota": 20
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 12,
+    "name": "Comet 12",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 0,
+        "quota": 2
+      },
+      {
+        "color": 2,
+        "quota": 5
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        {
+          "c": 2,
+          "m": true
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 2
+        },
+        {
+          "c": 0
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 0
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 13,
+    "name": "Aurora 13",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 0,
+        "quota": 14
+      },
+      {
+        "color": 1,
+        "quota": 14
+      },
+      {
+        "color": 2,
+        "quota": 14
+      },
+      {
+        "color": 4,
+        "quota": 6
+      }
+    ],
+    "grid": [
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1,
+          "m": true
+        }
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        {
+          "c": 1,
+          "m": true
+        }
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        {
+          "c": 1
+        }
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 4
+  },
+  {
+    "id": 14,
+    "name": "Whale 14",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 1
+      },
+      {
+        "color": 2,
+        "quota": 23
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null
+      ],
+      [
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        {
+          "c": 2
+        }
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 15,
+    "name": "Lighthouse 15",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 5
+      },
+      {
+        "color": 3,
+        "quota": 7
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 3,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 3
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 16,
+    "name": "Bear 16",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 28
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1,
+          "m": true
+        }
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        }
+      ],
+      [
+        null,
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 17,
+    "name": "Snowflake 17",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 3
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 24
+      }
+    ],
+    "grid": [
+      [
+        {
+          "c": 1
+        },
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        {
+          "c": 1
+        }
+      ],
+      [
+        null,
+        {
+          "c": 1
+        },
+        null,
+        {
+          "c": 1
+        },
+        null,
+        {
+          "c": 1
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        null,
+        null
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 1
+        },
+        null,
+        {
+          "c": 1
+        },
+        null,
+        {
+          "c": 1
+        },
+        null
+      ],
+      [
+        {
+          "c": 1,
+          "m": true
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        }
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 18,
+    "name": "Fish 18",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 1
+      },
+      {
+        "color": 4,
+        "quota": 22
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "l": true
+        },
+        null
+      ],
+      [
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 1,
+          "m": true
+        }
+      ],
+      [
+        null,
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 19,
+    "name": "Wave 19",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 3,
+        "quota": 21
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 3,
+          "l": true
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 3,
+          "l": true
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 3,
+          "m": true,
+          "l": true
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3,
+          "l": true
+        },
+        {
+          "c": 3,
+          "m": true
+        }
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 20,
+    "name": "Star 20",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 14
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "l": true
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 21,
+    "name": "Heart 21",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 3,
+        "quota": 27
+      }
+    ],
+    "grid": [
+      [
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null
+      ],
+      [
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3,
+          "l": true
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3,
+          "l": true
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        }
+      ],
+      [
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3,
+          "l": true
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        }
+      ],
+      [
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3,
+          "l": true
+        },
+        {
+          "c": 3,
+          "m": true
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 3,
+          "l": true
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3,
+          "m": true
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 3,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 22,
+    "name": "Pine 22",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 2,
+        "quota": 16
+      },
+      {
+        "color": 3,
+        "quota": 2
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 2,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "l": true
+        },
+        {
+          "c": 2,
+          "l": true
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        null
+      ],
+      [
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "l": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "l": true
+        },
+        {
+          "c": 2,
+          "m": true
+        }
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 3,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 3,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 23,
+    "name": "Moon 23",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 21
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true,
+          "l": true
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1,
+          "l": true
+        },
+        {
+          "c": 1,
+          "l": true
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "l": true
+        },
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 24,
+    "name": "Comet 24",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 0,
+        "quota": 5
+      },
+      {
+        "color": 4,
+        "quota": 2
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        {
+          "c": 0
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 0
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 0,
+          "m": true
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 0
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 4
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 4
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 25,
+    "name": "Aurora 25",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 0,
+        "quota": 14
+      },
+      {
+        "color": 1,
+        "quota": 14
+      },
+      {
+        "color": 3,
+        "quota": 12
+      },
+      {
+        "color": 4,
+        "quota": 7
+      }
+    ],
+    "grid": [
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 1,
+          "l": true
+        }
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 3,
+          "m": true
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 3,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        {
+          "c": 0,
+          "l": true
+        },
+        {
+          "c": 3,
+          "m": true
+        },
+        {
+          "c": 1,
+          "l": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 1,
+          "l": true
+        }
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        {
+          "c": 0,
+          "m": true
+        },
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        null,
+        {
+          "c": 1
+        }
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 4
+  },
+  {
+    "id": 26,
+    "name": "Whale 26",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 0,
+        "quota": 1
+      },
+      {
+        "color": 1,
+        "quota": 23
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 0,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 1,
+          "l": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        null
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true,
+          "l": true
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1,
+          "m": true,
+          "l": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 27,
+    "name": "Lighthouse 27",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 8
+      },
+      {
+        "color": 2,
+        "quota": 5
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 2,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 28,
+    "name": "Bear 28",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 4,
+        "quota": 28
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        {
+          "c": 4
+        },
+        null,
+        {
+          "c": 4,
+          "m": true
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "m": true
+        },
+        null
+      ],
+      [
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "m": true,
+          "l": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "l": true
+        }
+      ],
+      [
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4,
+          "m": true,
+          "l": true
+        },
+        {
+          "c": 4
+        }
+      ],
+      [
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        null,
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 29,
+    "name": "Snowflake 29",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 2,
+        "quota": 25
+      }
+    ],
+    "grid": [
+      [
+        {
+          "c": 2
+        },
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null,
+        {
+          "c": 2
+        }
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        null,
+        {
+          "c": 2
+        },
+        null,
+        {
+          "c": 2
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "l": true
+        },
+        null,
+        null
+      ],
+      [
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "m": true,
+          "l": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        }
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 2,
+          "m": true
+        },
+        null,
+        {
+          "c": 2
+        },
+        null,
+        {
+          "c": 2
+        },
+        null
+      ],
+      [
+        {
+          "c": 2
+        },
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null,
+        {
+          "c": 2,
+          "m": true
+        }
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 30,
+    "name": "Fish 30",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 3,
+        "quota": 1
+      },
+      {
+        "color": 4,
+        "quota": 22
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 4
+        },
+        null
+      ],
+      [
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 3,
+          "m": true
+        }
+      ],
+      [
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 31,
+    "name": "Wave 31",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 0,
+        "quota": 21
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 0,
+          "l": true
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0,
+          "m": true,
+          "l": true
+        },
+        {
+          "c": 0
+        }
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        {
+          "c": 0,
+          "m": true,
+          "l": true
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 32,
+    "name": "Star 32",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 2,
+        "quota": 14
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 2,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "l": true
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        {
+          "c": 2,
+          "l": true
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 33,
+    "name": "Heart 33",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 2,
+        "quota": 27
+      }
+    ],
+    "grid": [
+      [
+        null,
+        {
+          "c": 2,
+          "l": true
+        },
+        {
+          "c": 2
+        },
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null
+      ],
+      [
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "m": true
+        }
+      ],
+      [
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "l": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        }
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 34,
+    "name": "Pine 34",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 2,
+        "quota": 16
+      },
+      {
+        "color": 4,
+        "quota": 2
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 2,
+          "l": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null
+      ],
+      [
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        {
+          "c": 2,
+          "m": true,
+          "l": true
+        },
+        {
+          "c": 2,
+          "l": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "l": true
+        }
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 4
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 4,
+          "l": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 35,
+    "name": "Moon 35",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 0,
+        "quota": 21
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        {
+          "c": 0
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0,
+          "l": true
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 0,
+          "m": true
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 0,
+          "l": true
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 36,
+    "name": "Comet 36",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 4,
+        "quota": 5
+      },
+      {
+        "color": 5,
+        "quota": 2
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        {
+          "c": 4
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 4
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 4
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 4,
+          "l": true
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 4
+        },
+        {
+          "c": 5
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 5
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 37,
+    "name": "Aurora 37",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 0,
+        "quota": 7
+      },
+      {
+        "color": 2,
+        "quota": 12
+      },
+      {
+        "color": 3,
+        "quota": 14
+      },
+      {
+        "color": 4,
+        "quota": 14
+      }
+    ],
+    "grid": [
+      [
+        {
+          "c": 3
+        },
+        {
+          "c": 2,
+          "m": true,
+          "l": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0,
+          "l": true
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 4
+        }
+      ],
+      [
+        {
+          "c": 3
+        },
+        {
+          "c": 2,
+          "l": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0,
+          "l": true
+        },
+        {
+          "c": 3,
+          "l": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 4,
+          "m": true
+        }
+      ],
+      [
+        {
+          "c": 3
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0,
+          "l": true
+        },
+        {
+          "c": 3,
+          "m": true,
+          "l": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 4
+        }
+      ],
+      [
+        {
+          "c": 3,
+          "m": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        {
+          "c": 3,
+          "m": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 4
+        }
+      ],
+      [
+        {
+          "c": 3,
+          "l": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 4
+        }
+      ],
+      [
+        {
+          "c": 3
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 4
+        }
+      ],
+      [
+        {
+          "c": 3
+        },
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 3
+        },
+        null,
+        {
+          "c": 4
+        }
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 4
+  },
+  {
+    "id": 38,
+    "name": "Whale 38",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 1
+      },
+      {
+        "color": 4,
+        "quota": 23
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        null
+      ],
+      [
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 4
+        }
+      ],
+      [
+        null,
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 4
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 39,
+    "name": "Lighthouse 39",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 2,
+        "quota": 8
+      },
+      {
+        "color": 5,
+        "quota": 5
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 2,
+          "l": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 5,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 5
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        {
+          "c": 2,
+          "l": true
+        },
+        {
+          "c": 2
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 40,
+    "name": "Bear 40",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 2,
+        "quota": 28
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        {
+          "c": 2
+        },
+        null,
+        {
+          "c": 2
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 2,
+          "m": true
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        {
+          "c": 2
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        {
+          "c": 2
+        },
+        null
+      ],
+      [
+        {
+          "c": 2,
+          "l": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "l": true
+        },
+        {
+          "c": 2
+        }
+      ],
+      [
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        }
+      ],
+      [
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2
+        },
+        null,
+        {
+          "c": 2
+        },
+        {
+          "c": 2,
+          "m": true,
+          "l": true
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 41,
+    "name": "Snowflake 41",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 0,
+        "quota": 25
+      }
+    ],
+    "grid": [
+      [
+        {
+          "c": 0
+        },
+        null,
+        null,
+        {
+          "c": 0
+        },
+        null,
+        null,
+        {
+          "c": 0
+        }
+      ],
+      [
+        null,
+        {
+          "c": 0
+        },
+        null,
+        {
+          "c": 0,
+          "l": true
+        },
+        null,
+        {
+          "c": 0
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        null,
+        null
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0,
+          "l": true
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        }
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 0
+        },
+        null,
+        {
+          "c": 0,
+          "l": true
+        },
+        null,
+        {
+          "c": 0
+        },
+        null
+      ],
+      [
+        {
+          "c": 0
+        },
+        null,
+        null,
+        {
+          "c": 0,
+          "m": true
+        },
+        null,
+        null,
+        {
+          "c": 0
+        }
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 42,
+    "name": "Fish 42",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 0,
+        "quota": 1
+      },
+      {
+        "color": 4,
+        "quota": 22
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 4
+        },
+        null
+      ],
+      [
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 0
+        }
+      ],
+      [
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 4
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "m": true
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 43,
+    "name": "Wave 43",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 21
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "l": true
+        },
+        {
+          "c": 1,
+          "l": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "l": true
+        },
+        {
+          "c": 1,
+          "l": true
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "l": true
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 44,
+    "name": "Star 44",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 4,
+        "quota": 14
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 4
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 4
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 45,
+    "name": "Heart 45",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 5,
+        "quota": 27
+      }
+    ],
+    "grid": [
+      [
+        null,
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        null,
+        {
+          "c": 5,
+          "l": true
+        },
+        {
+          "c": 5
+        },
+        null
+      ],
+      [
+        {
+          "c": 5,
+          "m": true
+        },
+        {
+          "c": 5,
+          "m": true
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5,
+          "l": true
+        },
+        {
+          "c": 5,
+          "m": true
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        }
+      ],
+      [
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5,
+          "m": true
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5,
+          "l": true
+        }
+      ],
+      [
+        null,
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 5,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 46,
+    "name": "Pine 46",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 3,
+        "quota": 2
+      },
+      {
+        "color": 6,
+        "quota": 16
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 6
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 6
+        },
+        {
+          "c": 6,
+          "m": true
+        },
+        {
+          "c": 6,
+          "l": true
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6,
+          "l": true
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        null
+      ],
+      [
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6,
+          "l": true
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6,
+          "m": true
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        }
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 3
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 3
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 47,
+    "name": "Moon 47",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 5,
+        "quota": 21
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        {
+          "c": 5
+        },
+        {
+          "c": 5,
+          "m": true
+        },
+        {
+          "c": 5
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 5,
+          "l": true
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5,
+          "l": true
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 5,
+          "m": true
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 5,
+          "m": true
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5,
+          "l": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 48,
+    "name": "Comet 48",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 5
+      },
+      {
+        "color": 4,
+        "quota": 2
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 4
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 4
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 49,
+    "name": "Aurora 49",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 14
+      },
+      {
+        "color": 2,
+        "quota": 12
+      },
+      {
+        "color": 4,
+        "quota": 14
+      },
+      {
+        "color": 5,
+        "quota": 7
+      }
+    ],
+    "grid": [
+      [
+        {
+          "c": 4
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        {
+          "c": 1,
+          "m": true
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1,
+          "m": true
+        }
+      ],
+      [
+        {
+          "c": 4
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        {
+          "c": 1,
+          "l": true
+        }
+      ],
+      [
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 2,
+          "m": true
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 2,
+          "l": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 5,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 2,
+          "l": true
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 2
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        {
+          "c": 4
+        },
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 4
+        },
+        null,
+        {
+          "c": 1
+        }
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 4
+  },
+  {
+    "id": 50,
+    "name": "Whale 50",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 0,
+        "quota": 23
+      },
+      {
+        "color": 4,
+        "quota": 1
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 4
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 0,
+          "m": true,
+          "l": true
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0,
+          "l": true
+        },
+        {
+          "c": 0
+        },
+        null
+      ],
+      [
+        {
+          "c": 0
+        },
+        {
+          "c": 0,
+          "l": true
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0,
+          "m": true
+        },
+        {
+          "c": 0
+        }
+      ],
+      [
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0,
+          "l": true
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 0
+        },
+        {
+          "c": 0
+        },
+        {
+          "c": 0,
+          "l": true
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 51,
+    "name": "Lighthouse 51",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 5
+      },
+      {
+        "color": 3,
+        "quota": 8
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 3
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 3
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1,
+          "m": true,
+          "l": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "l": true
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 3
+        },
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 52,
+    "name": "Bear 52",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 6,
+        "quota": 28
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        {
+          "c": 6
+        },
+        null,
+        {
+          "c": 6
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 6
+        },
+        {
+          "c": 6,
+          "l": true
+        },
+        {
+          "c": 6
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6,
+          "l": true
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        null
+      ],
+      [
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6,
+          "m": true
+        },
+        {
+          "c": 6,
+          "m": true
+        }
+      ],
+      [
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6,
+          "m": true
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        }
+      ],
+      [
+        null,
+        {
+          "c": 6,
+          "l": true
+        },
+        {
+          "c": 6
+        },
+        null,
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 53,
+    "name": "Snowflake 53",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 5,
+        "quota": 25
+      }
+    ],
+    "grid": [
+      [
+        {
+          "c": 5
+        },
+        null,
+        null,
+        {
+          "c": 5
+        },
+        null,
+        null,
+        {
+          "c": 5
+        }
+      ],
+      [
+        null,
+        {
+          "c": 5
+        },
+        null,
+        {
+          "c": 5
+        },
+        null,
+        {
+          "c": 5
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5,
+          "l": true
+        },
+        null,
+        null
+      ],
+      [
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5,
+          "l": true
+        },
+        {
+          "c": 5
+        }
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 5
+        },
+        null,
+        {
+          "c": 5
+        },
+        null,
+        {
+          "c": 5
+        },
+        null
+      ],
+      [
+        {
+          "c": 5
+        },
+        null,
+        null,
+        {
+          "c": 5
+        },
+        null,
+        null,
+        {
+          "c": 5
+        }
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 54,
+    "name": "Fish 54",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 4,
+        "quota": 1
+      },
+      {
+        "color": 6,
+        "quota": 22
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 6,
+          "l": true
+        },
+        {
+          "c": 6,
+          "l": true
+        },
+        {
+          "c": 6
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        null
+      ],
+      [
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 4
+        }
+      ],
+      [
+        null,
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6,
+          "l": true
+        },
+        {
+          "c": 6,
+          "l": true
+        },
+        {
+          "c": 6,
+          "l": true
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        {
+          "c": 6
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 55,
+    "name": "Wave 55",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 5,
+        "quota": 21
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 5
+        },
+        {
+          "c": 5,
+          "m": true
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5,
+          "m": true
+        },
+        {
+          "c": 5
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5,
+          "m": true
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 5
+        },
+        {
+          "c": 5,
+          "m": true
+        },
+        {
+          "c": 5,
+          "l": true
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5,
+          "l": true
+        }
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 5
+        },
+        {
+          "c": 5,
+          "m": true
+        },
+        {
+          "c": 5
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 56,
+    "name": "Star 56",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 5,
+        "quota": 14
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 5
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 5,
+          "l": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 5,
+          "m": true
+        },
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 5
+        },
+        {
+          "c": 5
+        },
+        null,
+        {
+          "c": 5,
+          "l": true
+        },
+        {
+          "c": 5
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 57,
+    "name": "Heart 57",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 27
+      }
+    ],
+    "grid": [
+      [
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null,
+        {
+          "c": 1,
+          "l": true
+        },
+        {
+          "c": 1
+        },
+        null
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "l": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        }
+      ],
+      [
+        null,
+        {
+          "c": 1,
+          "m": true,
+          "l": true
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        {
+          "c": 1
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 1
+        },
+        {
+          "c": 1,
+          "m": true,
+          "l": true
+        },
+        {
+          "c": 1
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 58,
+    "name": "Pine 58",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 1,
+        "quota": 2
+      },
+      {
+        "color": 4,
+        "quota": 16
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 4,
+          "l": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "m": true,
+          "l": true
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        null
+      ],
+      [
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "m": true
+        },
+        {
+          "c": 4
+        },
+        {
+          "c": 4,
+          "l": true
+        },
+        {
+          "c": 4
+        }
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 1
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  },
+  {
+    "id": 59,
+    "name": "Moon 59",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 3,
+        "quota": 21
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3,
+          "m": true
+        },
+        {
+          "c": 3
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 3,
+          "m": true
+        },
+        {
+          "c": 3,
+          "l": true
+        },
+        {
+          "c": 3
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 3,
+          "m": true
+        },
+        {
+          "c": 3,
+          "m": true
+        },
+        {
+          "c": 3
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 3,
+          "m": true
+        },
+        {
+          "c": 3
+        },
+        {
+          "c": 3
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 3
+        },
+        {
+          "c": 3,
+          "l": true
+        },
+        {
+          "c": 3
+        },
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 1
+  },
+  {
+    "id": 60,
+    "name": "Comet 60",
+    "rows": 7,
+    "cols": 7,
+    "igloos": [
+      {
+        "r": 6,
+        "c": 1
+      },
+      {
+        "r": 6,
+        "c": 5
+      }
+    ],
+    "slots": 5,
+    "squads": [
+      {
+        "color": 5,
+        "quota": 5
+      },
+      {
+        "color": 6,
+        "quota": 2
+      }
+    ],
+    "grid": [
+      [
+        null,
+        null,
+        null,
+        null,
+        {
+          "c": 5
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "c": 5,
+          "m": true
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "c": 5
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "c": 5
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 5
+        },
+        {
+          "c": 6
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        {
+          "c": 6,
+          "l": true
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "difficulty": "gentle",
+    "solverNodes": 2
+  }
+];
